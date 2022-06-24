@@ -572,7 +572,7 @@ background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, F
     }
 
     .footer-logo{
-       color: (to right, #de6161, #2657eb);
+       color: #fff;
         display: flex;
         align-items: center;
         cursor: pointer;
@@ -624,9 +624,14 @@ background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, F
         font-size: 24px;
     }
 
+    .social-icon-link::after{
+        color: #fff;
+    }
+
     .social-media{
         max-width: 1000px;
         width: 100%;
+        color: #fff;
     }
 
     .social-media-wrap{
@@ -636,6 +641,7 @@ background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, F
         width: 90%;
         max-width: 1000px;
         margin: 40px auto 0 auto;
+        
     }
 
     .social-icons {
@@ -677,6 +683,8 @@ background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, F
                 padding: 10px;
                 width: 100%;
             }
+
+
         }
     }
 
