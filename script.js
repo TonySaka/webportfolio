@@ -41,20 +41,20 @@ if ((elem && window.innerWidth < 960 && scrollPos < 600) || elem){
     elem.classList.remove('highlight');
 };
 
-// window.addEventListener('scroll' , highlightMenu);
-// window.addEventListener('click', highlightMenu);
+window.addEventListener('scroll' , highlightMenu);
+window.addEventListener('click', highlightMenu);
 
-// // close mobile menu when clicking on menu item
-// const hideMobileMenu = () => {
-//     const MenuBars = document.querySelector('.is-active')
-//     if (window.innerWidth <= 768 && MenuBars) {
-//         menu.classList.toggle('is-active');
-//         menuLinks.classList.remove('active');
-//     }
-// };
+// close mobile menu when clicking on menu item
+const hideMobileMenu = () => {
+    const MenuBars = document.querySelector('.is-active')
+    if (window.innerWidth <= 768 && MenuBars) {
+        menu.classList.toggle('is-active');
+        menuLinks.classList.remove('active');
+    }
+};
 
-// menuLinks.addEventListener('click', hideMobileMenu);
-// navLogo.addEventListener('click', hideMobileMenu);
+menuLinks.addEventListener('click', hideMobileMenu);
+navLogo.addEventListener('click', hideMobileMenu);
  
 
 
